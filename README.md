@@ -1,7 +1,7 @@
 # Team6Project
 New plan:
 
-Planet 6 Café - location pending
+Planet 6 Café - located at Conestoga Waterloo Campus
 
 This is a brochure-like site promoting a fictious cafe on the campus of Contestoga College. For archival purposes, we can leave prior web site project ideas but they should be moved down the page and delineated with a horizontal rule like this:
 
