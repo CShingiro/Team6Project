@@ -4,3 +4,37 @@ body {
     background-size: cover;
     background-attachment: fixed;
 }
+
+header {
+    text-align:
+}
+
+iframe {
+    display: block;
+    margin: auto;
+}
+
+small {
+    display: block;
+    text-align: center;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+#maplink {
+    display: block;
+    background-color: #f4f2dc;
+    margin: auto;
+    border: 1px solid #F4f2dc;
+    padding: 1px;
+    border-radius: 10pt;
+}
+
+div.main {
+	background-color: #F4F2DC;
+	border-radius: 12pt;
+	margin: 1em;
+	padding: 1em;
+}
