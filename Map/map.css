@@ -1,8 +1,25 @@
+@font-face {
+    font-family: 'kenney_spaceregular';
+    src: url(../fonts/kenney_space-webfont.woff) format('woff');
+    text-decoration: none;
+    font-size: medium;
+}
+
+@font-face {
+    font-family: 'supercomputerregular';
+    src: url(../fonts/supercomputer-webfont.woff) format('woff');
+    text-decoration: none;
+    font-size: medium;
+}
+
 body {
     background-image: url("../Images/nathan-dumlao-6VhPY27jdps-unsplash.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    font-family: 'Futura', Helvetica, sans-serif;
+    font-weight: 800;
+    font-stretch: condensed;
 }
 
 iframe {
@@ -15,37 +32,61 @@ small {
     text-align: center;
 }
 
+h3 {
+    font-size: 1.5em;
+    text-align: center;
+    text-shadow: 1px 2px 3px #000000;
+    text-decoration: none;
+    color: #BABFD6;
+    font-family: 'kenney_spaceregular';
+    margin: 0pt;
+}
+
 a:link {
     text-decoration: none;
 }
 
-#maplink {
+button {
     display: block;
-    background-color: #f4f2dc;
     margin: auto;
-    border: 1px solid #F4f2dc;
-    padding: 1px;
-    border-radius: 10pt;
+    font-family: 'Futura', Helvetica, sans-serif;
+    font-weight: 800;
+    font-stretch: condensed;
+    font-size: 1.5em;
+    padding: 1em;
+    background-color: #F4F2DC;
+    min-width: 6em;
+    max-width: 30%;
+    height: 3em;
+    border-style: none;
+    border-radius: 12px;
+}
+
+button a {
+    color: inherit;
 }
 
 div.main {
-	background-color: #F4F2DC;
-	border-radius: 12pt;
-	margin: 1em;
-	padding: 1em;
+    background-color: #F4F2DC;
+    border-radius: 12pt;
+    margin: 1em;
+    padding: 1em;
 }
+
 #social_container {
-	text-align: center;
+    margin-top: 1em;
+    text-align: center;
 }
 
 img.social {
-	margin-left: 2pt;
-	margin-right: 2pt;
-	max-width: 25%;
+    margin-left: 2pt;
+    margin-right: 2pt;
+    max-width: 25%;
 }
+
 .slogan {
-	text-align: center;
-	font-size: 0.8em;
-	margin-top: 4pt;
-	margin-bottom: 0pt;
+    text-align: center;
+    font-size: 0.8em;
+    margin-top: 4pt;
+    margin-bottom: 0pt;
 }
