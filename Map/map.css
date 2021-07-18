@@ -34,3 +34,18 @@ div.main {
 	margin: 1em;
 	padding: 1em;
 }
+#social_container {
+	text-align: center;
+}
+
+img.social {
+	margin-left: 2pt;
+	margin-right: 2pt;
+	max-width: 25%;
+}
+.slogan {
+	text-align: center;
+	font-size: 0.8em;
+	margin-top: 4pt;
+	margin-bottom: 0pt;
+}
