@@ -23,14 +23,43 @@ body {
 }
 
 header {
-    text-align: center;
-    position: relative;
+    top: 0;
+    background-color: rgba(255,255,255,0.5);
+    position: sticky;
+    display: flex;
+}
+a {
+    display: inline-block;
+	text-decoration: none;
+}
+
+#logo {
+    display: inline;
+	max-width: 20%;
+	max-height: 4em;
+	margin-top: 0em;
+	margin-right: 0.5em;
+}
+
+.slogan {
+	text-align: center;
+	font-size: 0.8em;
+	margin-top: 4pt;
+	margin-bottom: 0pt;
+}
+
+h2 {
+    display: inline-block;
+	text-shadow: 2px 2px 8px #000000;
+	text-decoration: none;
+	font-size: 2em;
+	color: #F4F2DC;
+	font-family: 'kenney_spaceregular';
 }
 
 nav {
-    display: flex;
+    display: inline-flex;
     justify-content: space-evenly;
-    position: sticky;
 }
 
 .top_button {
