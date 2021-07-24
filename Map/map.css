@@ -22,6 +22,25 @@ body {
     font-stretch: condensed;
 }
 
+header {
+    text-align: center;
+    position: relative;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    position: sticky;
+}
+
+.top_button {
+    display: inline-block;
+}
+
+main {
+    text-align: center;
+}
+
 iframe {
     display: block;
     margin: auto;
@@ -47,8 +66,7 @@ a:link {
 }
 
 button {
-    display: block;
-    margin: auto;
+    margin: 1.5em;
     font-family: 'Futura', Helvetica, sans-serif;
     font-weight: 800;
     font-stretch: condensed;
@@ -64,6 +82,11 @@ button {
 
 button a {
     color: inherit;
+}
+
+button.highlight {
+	background-color: #061045;
+	color: #F4F2DC;
 }
 
 div.main {
@@ -90,3 +113,4 @@ img.social {
     margin-top: 4pt;
     margin-bottom: 0pt;
 }
+
