@@ -20,19 +20,19 @@ body {
 	font-stretch: condensed;
 }
 
-#wrapper {
-	margin: 1em;
-	padding: 1em;
-	background-color: #BABFD6;
-	border-radius: 12pt;
+header {
+    top: 0;
+    background-color: rgba(255,255,255,0.5);
+    position: sticky;
+    display: flex;
 }
-
-#header_div {
-	text-align: center;
+nav {
+    display: inline-flex;
+    justify-content: space-evenly;
 }
 
 #logo {
-	max-width: 20%;
+	max-width: 70pt;
 	max-height: 4em;
 	margin-top: 0em;
 	display: inline-block;
@@ -54,10 +54,12 @@ h1 {
 }
 
 .slogan {
+	display: inline;
 	text-align: center;
 	font-size: 0.8em;
-	margin-top: 4pt;
-	margin-bottom: 0pt;
+	margin: auto;
+	/* margin-top: 4pt;
+	margin-bottom: 0pt; */
 }
 
 hr {
@@ -79,7 +81,6 @@ button {
 	font-family: 'Futura', Helvetica, sans-serif;
 	font-weight: 800;
 	font-stretch: condensed;
-	vertical-align: middle;
 	padding: 0.3em;
 	background-color: #F4F2DC;
 	min-width: 6em;
