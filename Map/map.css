@@ -86,6 +86,11 @@ button a {
     color: inherit;
 }
 
+button.highlight {
+	background-color: #061045;
+	color: #F4F2DC;
+}
+
 div.main {
     background-color: #F4F2DC;
     border-radius: 12pt;
