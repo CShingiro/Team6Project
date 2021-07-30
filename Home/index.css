@@ -1,8 +1,6 @@
 @font-face {
 	font-family: 'kenney_spaceregular';
 	src: url(../fonts/kenney_space-webfont.woff) format('woff');
-	src: url(../fonts/kenney_space-webfont.woff2) format('woff2');
-	/* src: url(../fonts/kenney_space.ttf) format('truetype'); */
 	text-decoration: none;
 }
 

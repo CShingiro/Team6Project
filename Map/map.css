@@ -24,51 +24,23 @@ body {
 
 header {
     top: 0;
-    background-color: rgba(255,255,255,0.5);
     position: sticky;
-    display: flex;
-}
-a {
-    display: inline-block;
-	text-decoration: none;
-}
-
-#logo {
-    display: inline;
-	max-width: 20%;
-	max-height: 4em;
-	margin-top: 0em;
-	margin-right: 0.5em;
+    background-color:rgba(255,255,255,0.5);
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    
 }
 
-.slogan {
-	text-align: center;
-	font-size: 0.8em;
-	margin-top: 4pt;
-	margin-bottom: 0pt;
-}
-
-h2 {
-    display: inline-block;
-	text-shadow: 2px 2px 8px #000000;
-	text-decoration: none;
-	font-size: 2em;
-	color: #F4F2DC;
-	font-family: 'kenney_spaceregular';
-}
 
 nav {
-    display: inline-flex;
-    justify-content: space-evenly;
+    opacity: 1;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    position: sticky;
 }
 
-.top_button {
-    display: inline-block;
-}
-
-main {
-    text-align: center;
-}
 
 iframe {
     display: block;
@@ -95,7 +67,8 @@ a:link {
 }
 
 button {
-    margin: 1.5em;
+    display: block;
+    margin: auto;
     font-family: 'Futura', Helvetica, sans-serif;
     font-weight: 800;
     font-stretch: condensed;
@@ -111,11 +84,6 @@ button {
 
 button a {
     color: inherit;
-}
-
-button.highlight {
-	background-color: #061045;
-	color: #F4F2DC;
 }
 
 div.main {
@@ -142,4 +110,3 @@ img.social {
     margin-top: 4pt;
     margin-bottom: 0pt;
 }
-
