@@ -102,14 +102,16 @@ button.highlight {
 	padding: 1em;
 	border-radius: 12pt;
 	border: none;
-	text-align: center;
-	background-image: url('../images/splash.jpg');
-	background-position: top;
+	max-width: 100%;
+	background-image: url('../images/nathan-dumlao-6VhPY27jdps-unsplash.jpg');
+	background-position: center;
+	background-size: cover;
 	background-repeat: no-repeat;
-	height: 6em;
+	color: #F4F2DC;
 }
 
 h2 {
+	text-align: center;
 	text-shadow: 2px 2px 8px #000000;
 	text-decoration: none;
 	font-size: 2em;
