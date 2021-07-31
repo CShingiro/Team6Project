@@ -131,6 +131,7 @@ div.main {
     border-radius: 12pt;
     margin: 1em;
     padding: 1em;
+    justify-content: center;
 }
 
 #social_container {
@@ -149,6 +150,21 @@ img.social {
     font-size: 0.8em;
     margin-top: 4pt;
     margin-bottom: 0pt;
+}
+
+#left_content {
+    float: left;
+    display: inline;
+}
+
+#center_content {
+    text-align: center;
+    display: inline-block;
+}
+
+#right_content {
+    float: right;
+    display: inline;
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 728px) {
