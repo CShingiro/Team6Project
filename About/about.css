@@ -1,12 +1,12 @@
 @font-face {
 	font-family: 'kenney_spaceregular';
-	src: url(../fonts/kenney_space-webfont.woff) format('woff');
+	src: url(../Fonts/kenney_space-webfont.woff) format('woff');
 	text-decoration: none;
 }
 
 @font-face {
 	font-family: 'supercomputerregular';
-	src: url(../fonts/supercomputer-webfont.woff) format('woff');
+	src: url(../Fonts/supercomputer-webfont.woff) format('woff');
 	text-decoration: none;
 }
 
@@ -26,21 +26,26 @@ header {
     position: sticky;
     display: flex;
 }
-nav {
-    display: inline-flex;
+nav {margin-top: auto;
+	margin-bottom: auto;
+    display: block;
+	min-width: max-content;
     justify-content: space-evenly;
 }
 
 #logo {
 	max-width: 70pt;
 	max-height: 4em;
-	margin-top: 0em;
+	margin-left: 1em;
+
+	margin-top: 1em;
 	display: inline-block;
 	margin-right: 0.5em;
 }
 
 h1 {
-	margin: 0em;
+	margin-top: auto;
+	margin-bottom: auto;
 	display: inline-block;
 	color: #F4F2DC;
 	font-size: 1.5em;
@@ -57,7 +62,8 @@ h1 {
 	display: inline;
 	text-align: center;
 	font-size: 0.8em;
-	margin: auto;
+	margin-left: 1em;
+	margin-right: auto;
 	/* margin-top: 4pt;
 	margin-bottom: 0pt; */
 }
@@ -69,9 +75,6 @@ hr {
 	border-radius: 2px;
 }
 
-nav {
-	text-align: center;
-}
 
 a {
 	text-decoration: none;
@@ -99,20 +102,11 @@ button.highlight {
 	color: #F4F2DC;
 }
 
-#welcome {
-	margin-top: 1em;
-	margin-bottom: 1em;
-	padding: 1em;
-	border-radius: 12pt;
-	border: none;
-	text-align: center;
-	background-image: url('../images/splash.jpg');
-	background-position: top;
-	background-repeat: no-repeat;
-	height: 6em;
-}
-
 h2 {
+	min-width: 10rem;
+	margin-left: 1em;
+	margin-top: auto;
+	margin-bottom: auto;
 	text-shadow: 2px 2px 8px #000000;
 	text-decoration: none;
 	font-size: 2em;
@@ -158,7 +152,7 @@ div.main {
 	padding: 1em;
 }
 
-div img {
+main img {
 	max-width: 100%;
 	margin-top: 1em;
 }
