@@ -22,6 +22,24 @@ body {
     font-stretch: condensed;
 }
 
+#logo_slogan_and_title {
+    float: left;
+}
+
+h1 {
+    margin: 0em;
+    display: inline-block;
+    color: #F4F2DC;
+    font-size: 1.5em;
+    text-shadow: 2px 2px 8px #000000;
+    font-family: 'kenney_spaceregular';
+}
+
+#six {
+    font-family: 'supercomputerregular';
+    margin-right: 3pt;
+}
+
 header {
     top: 0;
     position: sticky;
@@ -33,6 +51,7 @@ header {
 }
 
 #logo {
+    float: none;
 	max-width: 70pt;
 	max-height: 4em;
 	margin-top: 0em;
@@ -41,7 +60,7 @@ header {
 }
 
 .slogan {
-	display: inline;
+	display: inline-block;
 	text-align: center;
 	font-size: 0.8em;
 	margin: auto;
@@ -132,7 +151,7 @@ img.social {
     margin-bottom: 0pt;
 }
 
-@media only screen and (min-device-width: 320px) and (max-device-width: 550px) and (max-device-height: 896px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3) {
+@media only screen and (min-device-width: 320px) and (max-device-width: 728px) {
     body {
         max-width: 400pt;
         background-color: #061045;
@@ -159,20 +178,6 @@ img.social {
         margin-top: 0em;
         display: inline-block;
         margin-right: 0.5em;
-    }
-    
-    h1 {
-        margin: 0em;
-        display: inline-block;
-        color: #F4F2DC;
-        font-size: 1.5em;
-        text-shadow: 2px 2px 8px #000000;
-        font-family: 'kenney_spaceregular';
-    }
-    
-    #six {
-        font-family: 'supercomputerregular';
-        margin-right: 3pt;
     }
     
     .slogan {
