@@ -1,12 +1,12 @@
 @font-face {
 	font-family: 'kenney_spaceregular';
-	src: url(../fonts/kenney_space-webfont.woff) format('woff');
+	src: url(../Fonts/kenney_space-webfont.woff) format('woff');
 	text-decoration: none;
 }
 
 @font-face {
 	font-family: 'supercomputerregular';
-	src: url(../fonts/supercomputer-webfont.woff) format('woff');
+	src: url(../Fonts/supercomputer-webfont.woff) format('woff');
 	text-decoration: none;
 }
 
