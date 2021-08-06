@@ -1,17 +1,16 @@
 @font-face {
 	font-family: 'kenney_spaceregular';
-	src: url(../Fonts/kenney_space-webfont.woff) format('woff');
+	src: url(../fonts/kenney_space-webfont.woff) format('woff');
 	text-decoration: none;
 }
 
 @font-face {
 	font-family: 'supercomputerregular';
-	src: url(../Fonts/supercomputer-webfont.woff) format('woff');
+	src: url(../fonts/supercomputer-webfont.woff) format('woff');
 	text-decoration: none;
 }
 
 body {
-
 	background-color: #061045;
 	font-family: 'Futura', Helvetica, sans-serif;
 	font-weight: 800;
@@ -51,12 +50,19 @@ h1 {
 	margin-right: 3pt;
 }
 
+.main {
+	text-align: center;
+}
+
 .slogan {
 	text-align: center;
 	font-size: 0.8em;
 	margin-top: 4pt;
 	margin-bottom: 0pt;
 }
+
+
+
 
 hr {
 	background-color: #5e6369;
@@ -97,21 +103,19 @@ button.highlight {
 }
 
 #welcome {
-	margin-top: 1em;
-	margin-bottom: 1em;
+	margin: 10px 2%;
 	padding: 1em;
-	border-radius: 12pt;
-	border: none;
-	max-width: 100%;
-	background-image: url('../images/nathan-dumlao-6VhPY27jdps-unsplash.jpg');
+	border-radius: 20px;
+	text-align: center;
+	background-image: url('../images/splash.jpg');
 	background-position: center;
-	background-size: cover;
 	background-repeat: no-repeat;
-	color: #F4F2DC;
+	height: 6em;
+	background-size: 100%;
+
 }
 
 h2 {
-	text-align: center;
 	text-shadow: 2px 2px 8px #000000;
 	text-decoration: none;
 	font-size: 2em;
@@ -174,4 +178,4 @@ img.social {
 	margin-left: 2pt;
 	margin-right: 2pt;
 	max-width: 25%;
-}
+}                                        
