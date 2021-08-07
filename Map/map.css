@@ -1,370 +1,112 @@
-* {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-}
-
-html, body {
-	font-family: 'Futura', Helvetica, sans-serif;
-	font-weight: 800;
-	font-stretch: condensed;
+@font-face {
+    font-family: 'kenney_spaceregular';
+    src: url(../fonts/kenney_space-webfont.woff) format('woff');
+    text-decoration: none;
+    font-size: medium;
 }
 
 @font-face {
-	font-family: 'kenney_spaceregular';
-	src: url(../Fonts/kenney_space-webfont.woff) format('woff');
-	text-decoration: none;
+    font-family: 'supercomputerregular';
+    src: url(../fonts/supercomputer-webfont.woff) format('woff');
+    text-decoration: none;
+    font-size: medium;
 }
 
-@font-face {
-	font-family: 'supercomputerregular';
-	src: url(../Fonts/supercomputer-webfont.woff) format('woff');
-	text-decoration: none;
-}
-
-.hero {
-	height: 100vh;
-	background-image: url('../Images/splash.jpg');
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-}
-
-.headerWrapper {
-	position: absolute;
-	width: 100%;
+body {
+    background-image: url("../Images/nathan-dumlao-6VhPY27jdps-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; 
+    font-family: 'Futura', Helvetica, sans-serif;
+    font-weight: 800;
+    font-stretch: condensed;
 }
 
 header {
-	display: flex;
-	justify-content: space-between;
-	width: 100%;
-	position: fixed;
-	top: 0;
+    top: 0;
+    position: sticky;
+    background-color:rgba(255,255,255,0.5);
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    
 }
 
-#logo {
-	max-width: 20%;
-	max-height: 4em;
-	margin-top: 0em;
-	display: inline-block;
-	margin-right: 0.5em;
-}
-
-h1 {
-	margin: 0em;
-	display: inline-block;
-	color: #F4F2DC;
-	font-size: 1.5em;
-	text-shadow: 2px 2px 8px #000000;
-	font-family: 'kenney_spaceregular';
-}
-
-#six {
-	font-family: 'supercomputerregular';
-	margin-right: 3pt;
-}
-
-.mainContent {
-	position: relative;
-	top: -250px;
-	margin: 0 5%;
-}
-
-.content {
-	background-color: #F4F2DC;
-	margin: 10px auto;
-	border-radius: 20px;
-	padding: 1rem;
-}
-
-.weeklySpecials {
-	padding: 30px;
-	display: flex;
-}
-
-.weeklyimg {
-	margin-top: 10px;
-	width: 400px;
-	border-radius: 20px;
-}
-
-.weeklyText {
-	display: flex;
-	align-items: center;
-	margin-left: 30px;
-	font-size: 1.3rem;
-}
-
-
-.welcome {
-	padding: 40px;
-	font-size: 1.3rem;
-}
-
-.slogan {
-	text-align: center;
-	font-size: 0.8em;
-	margin-top: 4pt;
-	margin-bottom: 0pt;
-}
-
-/* tabs */
-.tabcontent {
-	display: none;
-}
-
-
-
-
-/* footer */
-footer {
-	display: flex;
-}
-
-hr {
-	background-color: #5e6369;
-	border-style: none;
-	height: 3px;
-	border-radius: 2px;
-}
 
 nav {
-	text-align: center;
-}
-
-a {
-	text-decoration: none;
-}
-
-button {
-	font-family: 'Futura', Helvetica, sans-serif;
-	font-weight: 800;
-	font-stretch: condensed;
-	vertical-align: middle;
-	padding: 0.3em;
-	background-color: #F4F2DC;
-	min-width: 6em;
-	max-width: 30%;
-	height: 3em;
-	border-style: none;
-	border-radius: 12px;
-}
-
-button a {
-	color: inherit;
-}
-
-button.highlight {
-	background-color: #061045;
-	color: #F4F2DC;
+    opacity: 1;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    position: sticky;
 }
 
 
+iframe {
+    display: block;
+    margin: auto;
+}
 
-
-
-h2 {
-	text-shadow: 2px 2px 8px #000000;
-	text-decoration: none;
-	font-size: 2em;
-	color: #F4F2DC;
-	font-family: 'kenney_spaceregular';
+small {
+    display: block;
+    text-align: center;
 }
 
 h3 {
-	font-size: 1.5em;
-	text-align: center;
-	text-shadow: 1px 2px 3px #000000;
-	text-decoration: none;
-	color: #BABFD6;
-	font-family: 'kenney_spaceregular';
-	margin-bottom: 1rem;
+    font-size: 1.5em;
+    text-align: center;
+    text-shadow: 1px 2px 3px #000000;
+    text-decoration: none;
+    color: #BABFD6;
+    font-family: 'kenney_spaceregular';
+    margin: 0pt;
 }
 
-span.menu_item {
-	text-align: left;
+a:link {
+    text-decoration: none;
 }
 
-span.price {
-	text-align: right;
+button {
+    display: block;
+    margin: auto;
+    font-family: 'Futura', Helvetica, sans-serif;
+    font-weight: 800;
+    font-stretch: condensed;
+    font-size: 1.5em;
+    padding: 1em;
+    background-color: #F4F2DC;
+    min-width: 6em;
+    max-width: 30%;
+    height: 3em;
+    border-style: none;
+    border-radius: 12px;
 }
 
-ul {
-	display: block;
-	padding-left: 0;
+button a {
+    color: inherit;
 }
 
-li {
-	display: flex;
-	justify-content: space-between;
-}
-
-
-
-div p {
-	margin-bottom: 4pt;
+div.main {
+    background-color: #F4F2DC;
+    border-radius: 12pt;
+    margin: 1em;
+    padding: 1em;
 }
 
 #social_container {
-	text-align: center;
+    margin-top: 1em;
+    text-align: center;
 }
 
 img.social {
-	margin-left: 2pt;
-	margin-right: 2pt;
-	max-width: 25%;
+    margin-left: 2pt;
+    margin-right: 2pt;
+    max-width: 25%;
 }
 
-@media only screen and (min-device-width: 320px) and (max-device-width: 728px) {
-    body {
-        max-width: 400pt;
-        background-color: #061045;
-        font-family: 'Futura', Helvetica, sans-serif;
-        font-weight: 800;
-        font-stretch: condensed;
-        background-image: none;
-    }
-    
-    #wrapper {
-        margin: 1em;
-        padding: 1em;
-        background-color: #BABFD6;
-        border-radius: 12pt;
-    }
-    
-    #header_div {
-        text-align: center;
-    }
-    
-    #logo {
-        max-width: 20%;
-        max-height: 4em;
-        margin-top: 0em;
-        display: inline-block;
-        margin-right: 0.5em;
-    }
-    
-    .slogan {
-        text-align: center;
-        font-size: 0.8em;
-        margin-top: 4pt;
-        margin-bottom: 0pt;
-    }
-    
-    hr {
-        background-color: #5e6369;
-        border-style: none;
-        height: 3px;
-        border-radius: 2px;
-    }
-    
-    nav {
-        text-align: center;
-    }
-    
-    a {
-        text-decoration: none;
-    }
-    
-    button {
-        font-family: 'Futura', Helvetica, sans-serif;
-        font-weight: 800;
-        font-stretch: condensed;
-        vertical-align: middle;
-        padding: 0.3em;
-        background-color: #F4F2DC;
-        min-width: 6em;
-        max-width: 30%;
-        height: 3em;
-        border-style: none;
-        border-radius: 12px;
-    }
-    
-    button a {
-        color: inherit;
-    }
-    
-    button.highlight {
-        background-color: #061045;
-        color: #F4F2DC;
-    }
-    
-    #welcome {
-        margin-top: 1em;
-        margin-bottom: 1em;
-        padding: 1em;
-        border-radius: 12pt;
-        border: none;
-        text-align: center;
-        background-image: url('../images/splash.jpg');
-        background-position: top;
-        background-repeat: no-repeat;
-        height: 6em;
-    }
-    
-    h2 {
-        text-shadow: 2px 2px 8px #000000;
-        text-decoration: none;
-        font-size: 2em;
-        color: #F4F2DC;
-        font-family: 'kenney_spaceregular';
-    }
-    
-    h3 {
-        font-size: 1.5em;
-        text-align: center;
-        text-shadow: 1px 2px 3px #000000;
-        text-decoration: none;
-        color: #BABFD6;
-        font-family: 'kenney_spaceregular';
-        margin: 0pt;
-    }
-    
-    span.menu_item {
-        text-align: left;
-    }
-    
-    span.price {
-        text-align: right;
-    }
-    
-    ul {
-        display: block;
-        padding-left: 0;
-    }
-    
-    li {
-        display: flex;
-        justify-content: space-between;
-    }
-    
-    div.main {
-        background-color: #F4F2DC;
-        border-radius: 12pt;
-        margin-top: 1em;
-        margin-bottom: 0pt;
-        margin-left: 0em;
-        margin-right: 0em;
-        padding: 1em;
-    }
-    
-    div img {
-        max-width: 100%;
-        margin-top: 1em;
-    }
-    
-    div p {
-        margin-bottom: 4pt;
-    }
-    
-    #social_container {
-        text-align: center;
-    }
-    
-    img.social {
-        margin-left: 2pt;
-        margin-right: 2pt;
-        max-width: 25%;
-    }
+.slogan {
+    text-align: center;
+    font-size: 0.8em;
+    margin-top: 4pt;
+    margin-bottom: 0pt;
 }
