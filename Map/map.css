@@ -1,124 +1,158 @@
-@font-face {
-    font-family: 'kenney_spaceregular';
-    src: url(../Fonts/kenney_space-webfont.woff) format('woff');
-    text-decoration: none;
-    font-size: medium;
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html, body {
+	font-family: 'Futura', Helvetica, sans-serif;
+	font-weight: 800;
+	font-stretch: condensed;
 }
 
 @font-face {
-    font-family: 'supercomputerregular';
-    src: url(../Fonts/supercomputer-webfont.woff) format('woff');
-    text-decoration: none;
-    font-size: medium;
+	font-family: 'kenney_spaceregular';
+	src: url(../Fonts/kenney_space-webfont.woff) format('woff');
+	text-decoration: none;
 }
 
-body {
-    background-image: url("../Images/nathan-dumlao-6VhPY27jdps-unsplash.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    font-family: 'Futura', Helvetica, sans-serif;
-    font-weight: 800;
-    font-stretch: condensed;
+@font-face {
+	font-family: 'supercomputerregular';
+	src: url(../Fonts/supercomputer-webfont.woff) format('woff');
+	text-decoration: none;
 }
 
-#logo_slogan_and_title {
-    float: left;
+.hero {
+	height: 100vh;
+	background-image: url('../Images/splash.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
-h1 {
-    margin: 0em;
-    display: inline-block;
-    color: #F4F2DC;
-    font-size: 1.5em;
-    text-shadow: 2px 2px 8px #000000;
-    font-family: 'kenney_spaceregular';
-}
-
-#six {
-    font-family: 'supercomputerregular';
-    margin-right: 3pt;
+.headerWrapper {
+	position: absolute;
+	width: 100%;
 }
 
 header {
-    top: 0;
-    position: sticky;
-    background-color:rgba(255,255,255,0.5);
-    padding: 10px;
-    margin-bottom: 20px;
-    border-radius: 10px;
-    
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	position: fixed;
+	top: 0;
 }
 
 #logo {
-    float: none;
-	max-width: 70pt;
+	max-width: 20%;
 	max-height: 4em;
 	margin-top: 0em;
 	display: inline-block;
 	margin-right: 0.5em;
 }
 
-.slogan {
+h1 {
+	margin: 0em;
 	display: inline-block;
+	color: #F4F2DC;
+	font-size: 1.5em;
+	text-shadow: 2px 2px 8px #000000;
+	font-family: 'kenney_spaceregular';
+}
+
+#six {
+	font-family: 'supercomputerregular';
+	margin-right: 3pt;
+}
+
+.mainContent {
+	position: relative;
+	top: -250px;
+	margin: 0 5%;
+}
+
+.content {
+	background-color: #F4F2DC;
+	margin: 10px auto;
+	border-radius: 20px;
+	padding: 1rem;
+}
+
+.weeklySpecials {
+	padding: 30px;
+	display: flex;
+}
+
+.weeklyimg {
+	margin-top: 10px;
+	width: 400px;
+	border-radius: 20px;
+}
+
+.weeklyText {
+	display: flex;
+	align-items: center;
+	margin-left: 30px;
+	font-size: 1.3rem;
+}
+
+
+.welcome {
+	padding: 40px;
+	font-size: 1.3rem;
+}
+
+.slogan {
 	text-align: center;
 	font-size: 0.8em;
-	margin: auto;
-	/* margin-top: 4pt;
-	margin-bottom: 0pt; */
+	margin-top: 4pt;
+	margin-bottom: 0pt;
+}
+
+/* tabs */
+.tabcontent {
+	display: none;
+}
+
+
+
+
+/* footer */
+footer {
+	display: flex;
+}
+
+hr {
+	background-color: #5e6369;
+	border-style: none;
+	height: 3px;
+	border-radius: 2px;
 }
 
 nav {
-    opacity: 1;
-    top: 0;
-    display: flex;
-    justify-content: center;
-    position: sticky;
+	text-align: center;
 }
 
-
-iframe {
-    display: block;
-    margin: auto;
-}
-
-small {
-    display: block;
-    text-align: center;
-}
-
-h3 {
-    font-size: 1.5em;
-    text-align: center;
-    text-shadow: 1px 2px 3px #000000;
-    text-decoration: none;
-    color: #BABFD6;
-    font-family: 'kenney_spaceregular';
-    margin: 0pt;
-}
-
-a:link {
-    text-decoration: none;
+a {
+	text-decoration: none;
 }
 
 button {
-    display: block;
-    margin: auto;
-    font-family: 'Futura', Helvetica, sans-serif;
-    font-weight: 800;
-    font-stretch: condensed;
-    font-size: 1.5em;
-    padding: 1em;
-    background-color: #F4F2DC;
-    min-width: 6em;
-    max-width: 30%;
-    height: 3em;
-    border-style: none;
-    border-radius: 12px;
+	font-family: 'Futura', Helvetica, sans-serif;
+	font-weight: 800;
+	font-stretch: condensed;
+	vertical-align: middle;
+	padding: 0.3em;
+	background-color: #F4F2DC;
+	min-width: 6em;
+	max-width: 30%;
+	height: 3em;
+	border-style: none;
+	border-radius: 12px;
 }
 
 button a {
-    color: inherit;
+	color: inherit;
 }
 
 button.highlight {
@@ -126,45 +160,60 @@ button.highlight {
 	color: #F4F2DC;
 }
 
-div.main {
-    background-color: #F4F2DC;
-    border-radius: 12pt;
-    margin: 1em;
-    padding: 1em;
-    justify-content: center;
+
+
+
+
+h2 {
+	text-shadow: 2px 2px 8px #000000;
+	text-decoration: none;
+	font-size: 2em;
+	color: #F4F2DC;
+	font-family: 'kenney_spaceregular';
+}
+
+h3 {
+	font-size: 1.5em;
+	text-align: center;
+	text-shadow: 1px 2px 3px #000000;
+	text-decoration: none;
+	color: #BABFD6;
+	font-family: 'kenney_spaceregular';
+	margin-bottom: 1rem;
+}
+
+span.menu_item {
+	text-align: left;
+}
+
+span.price {
+	text-align: right;
+}
+
+ul {
+	display: block;
+	padding-left: 0;
+}
+
+li {
+	display: flex;
+	justify-content: space-between;
+}
+
+
+
+div p {
+	margin-bottom: 4pt;
 }
 
 #social_container {
-    margin-top: 1em;
-    text-align: center;
+	text-align: center;
 }
 
 img.social {
-    margin-left: 2pt;
-    margin-right: 2pt;
-    max-width: 25%;
-}
-
-.slogan {
-    text-align: center;
-    font-size: 0.8em;
-    margin-top: 4pt;
-    margin-bottom: 0pt;
-}
-
-#left_content {
-    float: left;
-    display: inline;
-}
-
-#center_content {
-    text-align: center;
-    display: inline-block;
-}
-
-#right_content {
-    float: right;
-    display: inline;
+	margin-left: 2pt;
+	margin-right: 2pt;
+	max-width: 25%;
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 728px) {

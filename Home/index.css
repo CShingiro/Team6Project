@@ -12,19 +12,19 @@ html, body {
 
 @font-face {
 	font-family: 'kenney_spaceregular';
-	src: url(../fonts/kenney_space-webfont.woff) format('woff');
+	src: url(../Fonts/kenney_space-webfont.woff) format('woff');
 	text-decoration: none;
 }
 
 @font-face {
 	font-family: 'supercomputerregular';
-	src: url(../fonts/supercomputer-webfont.woff) format('woff');
+	src: url(../Fonts/supercomputer-webfont.woff) format('woff');
 	text-decoration: none;
 }
 
 .hero {
 	height: 100vh;
-	background-image: url('../images/splash.jpg');
+	background-image: url('../Images/splash.jpg');
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -42,8 +42,6 @@ header {
 	position: fixed;
 	top: 0;
 }
-
-#header_div {}
 
 #logo {
 	max-width: 20%;
@@ -77,7 +75,7 @@ h1 {
 	background-color: #F4F2DC;
 	margin: 10px auto;
 	border-radius: 20px;
-
+	padding: 1rem;
 }
 
 .weeklySpecials {
@@ -181,7 +179,7 @@ h3 {
 	text-decoration: none;
 	color: #BABFD6;
 	font-family: 'kenney_spaceregular';
-	margin: 0pt;
+	margin-bottom: 1rem;
 }
 
 span.menu_item {
