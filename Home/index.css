@@ -1,3 +1,15 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html, body {
+	font-family: 'Futura', Helvetica, sans-serif;
+	font-weight: 800;
+	font-stretch: condensed;
+}
+
 @font-face {
 	font-family: 'kenney_spaceregular';
 	src: url(../fonts/kenney_space-webfont.woff) format('woff');
@@ -10,23 +22,28 @@
 	text-decoration: none;
 }
 
-body {
-	background-color: #061045;
-	font-family: 'Futura', Helvetica, sans-serif;
-	font-weight: 800;
-	font-stretch: condensed;
+.hero {
+	height: 100vh;
+	background-image: url('../images/splash.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
-#wrapper {
-	margin: 1em;
-	padding: 1em;
-	background-color: #BABFD6;
-	border-radius: 12pt;
+.headerWrapper {
+	position: absolute;
+	width: 100%;
 }
 
-#header_div {
-	text-align: center;
+header {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	position: fixed;
+	top: 0;
 }
+
+#header_div {}
 
 #logo {
 	max-width: 20%;
@@ -50,8 +67,41 @@ h1 {
 	margin-right: 3pt;
 }
 
-.main {
-	text-align: center;
+.mainContent {
+	position: relative;
+	top: -250px;
+	margin: 0 5%;
+}
+
+.content {
+	background-color: #F4F2DC;
+	margin: 10px auto;
+	border-radius: 20px;
+
+}
+
+.weeklySpecials {
+	padding: 30px;
+	display: flex;
+}
+
+.weeklyimg {
+	margin-top: 10px;
+	width: 400px;
+	border-radius: 20px;
+}
+
+.weeklyText {
+	display: flex;
+	align-items: center;
+	margin-left: 30px;
+	font-size: 1.3rem;
+}
+
+
+.welcome {
+	padding: 40px;
+	font-size: 1.3rem;
 }
 
 .slogan {
@@ -61,8 +111,18 @@ h1 {
 	margin-bottom: 0pt;
 }
 
+/* tabs */
+.tabcontent {
+	display: none;
+}
 
 
+
+
+/* footer */
+footer {
+	display: flex;
+}
 
 hr {
 	background-color: #5e6369;
@@ -102,18 +162,9 @@ button.highlight {
 	color: #F4F2DC;
 }
 
-#welcome {
-	margin: 10px 2%;
-	padding: 1em;
-	border-radius: 20px;
-	text-align: center;
-	background-image: url('../images/splash.jpg');
-	background-position: center;
-	background-repeat: no-repeat;
-	height: 6em;
-	background-size: 100%;
 
-}
+
+
 
 h2 {
 	text-shadow: 2px 2px 8px #000000;
@@ -151,20 +202,7 @@ li {
 	justify-content: space-between;
 }
 
-div.main {
-	background-color: #F4F2DC;
-	border-radius: 12pt;
-	margin-top: 1em;
-	margin-bottom: 0pt;
-	margin-left: 0em;
-	margin-right: 0em;
-	padding: 1em;
-}
 
-div img {
-	max-width: 100%;
-	margin-top: 1em;
-}
 
 div p {
 	margin-bottom: 4pt;
@@ -178,4 +216,4 @@ img.social {
 	margin-left: 2pt;
 	margin-right: 2pt;
 	max-width: 25%;
-}                                        
+}

@@ -12,91 +12,129 @@
 
 <body>
 	<div id="wrapper">
-		<header>
-			<div id="header_div">
-				<a href="../Home/index.html">
-					<img id="logo" src="../Images/logo.png" alt="coffee cup with planetary rings around it">
-					<h1>Planet <span id="six">6</span> Cafe</h1>
-				</a>
-				<p class="slogan">The best coffee and eats this side of the galaxy!</p>
-				<hr>
-			</div>
-			<nav>
-				<button type="button" class="highlight"><a href="../Home/index.html">Home & Menu</a></button>
-				<button type="button"><a href="../Map/map.html">Where to Find Us</a></button>
-				<button type="button"><a href="../About/about.html">About Us</a></button>
-			</nav>
-		</header>
-		<main>
+		<div class="headerWrapper">
+			<header>
+				<div id="header_div">
+					<a href="../Home/index.html">
+						<img id="logo" src="../Images/logo.png" alt="coffee cup with planetary rings around it">
+						<h1>Planet <span id="six">6</span> Cafe</h1>
+					</a>
+					<p class="slogan">The best coffee and eats this side of the galaxy!</p>
+				</div>
+				<nav>
+					<button type="button" class="highlight"><a href="../Home/index.html">Home & Menu</a></button>
+					<button type="button"><a href="../Map/map.html">Where to Find Us</a></button>
+					<button type="button"><a href="../About/about.html">About Us</a></button>
+				</nav>
+			</header>
+		</div>
 
-			<div class="main">
-				<h3>Weekly Specials</h3>
-				<img id="weeklyimg" src="../Images/egg_and_bacon_meal.png" alt="combo breakfast of egg and bacon sandwich and juice">
-				<p>Save $1.50 when you order an Bacon &amp; Egg Sandwich with Orange Juice.</p>
-			</div>
-			<div id="welcome">
-				<h2>Welcome</h2>
-			</div>
-			<div class="main">
-				<h3>Drinks</h3>
-				<ul>
-					<li><span class="menu_item">Coffee</span><span class="price">$2.00</span></li>
-					<li><span class="menu_item">Espresso</span><span class="price">$2.75</span></li>
-					<li><span class="menu_item">Cappuccino</span><span class="price">$3.00</span></li>
-					<li><span class="menu_item">Late</span><span class="price">$3.00</span></li>
-					<li><span class="menu_item">Juice</span><span class="price">$2.00</span></li>
-					<li><span class="menu_item">Fountain Pop</span><span class="price">$1.75</span></li>
-				</ul>
-			</div>
-			<div class="main">
-				<h3>Breakfast</h3>
-				<ul>
-					<li><span class="menu_item">Egg &amp; Sausage Sandwich</span><span class="price">$5.00</span></li>
-					<li><span class="menu_item">Egg &amp; Bacon Sandwich</span><span class="price">$5.00</span></li>
-					<li><span class="menu_item">Two Eggs Over Easy</span><span class="price">$6.00</span></li>
-					<li><span class="menu_item">Western Omlette</span><span class="price">$7.00</span></li>
-					<li><span class="menu_item">Eggs Benedict</span><span class="price">$11.00</span></li>
-				</ul>
-			</div>
-			<div class="main">
-				<h3>Lunch</h3>
-				<ul>
-					<li><span class="menu_item">BLT with Fries</span><span class="price">$7.00</span></li>
-					<li><span class="menu_item">Turkey Bacon Clubhouse</span><span class="price">$9.00</span></li>
-					<li><span class="menu_item">Chicken Pesto Panini</span><span class="price">$7.00</span></li>
-					<li><span class="menu_item">Steak Sandwich</span><span class="price">$11.00</span></li>
-					<li><span class="menu_item">Vegi-Bowl</span><span class="price">$9.00</span></li>
-				</ul>
-			</div>
-		</main>
-		<footer>
-			<div class="main">
-				<h3>Address</h3>
-				<p>108 University Ave E<br>
-					Waterloo Ontario<br>
-					N2J 2W2</p>
-			</div>
-			<div class="main">
-				<h3>Open Hours</h3>
-				<p>Monday - Thursday<br>
-					7:00 am - 4:00 pm</p>
-				<p>Friday<br>
-					7:00 am - 3:00 pm</p>
-			</div>
-			<div class="main">
-				<h3>Social</h3>
-				<div id="social_container">
-					<a href="http://www.instagram.com"><img class="social" src="../Images/insta.png"
-							alt="Our Instagram feed"></a>
-					<a href="http://www.twitter.com"><img class="social" src="../Images/twitter.png"
-							alt="Our Tweets"></a>
-					<a href="http://www.facebook.com"><img class="social" src="../Images/facebook.png"
-							alt="Our Facebook Page"></a>
+
+		<div class="hero">
+			<!-- background image is in this div -->
+		</div>
+
+		<div class="mainContent">
+			<main>
+
+				<div class="content weeklySpecials">
+					<div>
+						<h3>Weekly Specials</h3>
+						<img class="weeklyimg" src="../Images/egg_and_bacon_meal.png"
+							alt="combo breakfast of egg and bacon sandwich and juice">
+					</div>
+					<div class="weeklyText">
+						This week special is a combo of Orange juice and <br>
+						Bacon and Egger Breakfast Sandwich. <br>
+						You save - $ 1.50 <br>
+						Price - $5.50
+					</div>
+
+
+				</div>
+				<div class="content welcome">
+					<h2>Welcome to planet 6 Cafe</h2>
+					<p>Our World Class and specially made Coffee are sure to invigorate you taste buds and wake you up in
+						the morning with a large and bright Smile on your face.
+						All drinks are made with Natural and Imported ingredients from all around the world. Great
+						service
+						is provided by ambitious and motivated Students from Waterloo Campus of Conestoga College.</p>
+				</div>
+				<div class="menu">
+					<div class="tab">
+						<ul>
+							<li data-tab-target="#drinks">Drinks</li>
+							<li data-tab-target="#breakfast">Breakfast</li>
+							<li data-tab-target="#lunch">Lunch</li>
+						</ul>
+					</div>
+				<div class="content menu Drinks tabcontent" data-tab-content id="drinks">
+					<h3>Drinks</h3>
+					<ul>
+						<li><span class="menu_item">Coffee</span><span class="price">$2.00</span></li>
+						<li><span class="menu_item">Espresso</span><span class="price">$2.75</span></li>
+						<li><span class="menu_item">Cappuccino</span><span class="price">$3.00</span></li>
+						<li><span class="menu_item">Late</span><span class="price">$3.00</span></li>
+						<li><span class="menu_item">Juice</span><span class="price">$2.00</span></li>
+						<li><span class="menu_item">Fountain Pop</span><span class="price">$1.75</span></li>
+					</ul>
+				</div>
+				<div class="content menu Breakfast tabcontent" data-tab-content id="breakfast">
+					<h3>Breakfast</h3>
+					<ul>
+						<li><span class="menu_item">Egg &amp; Sausage Sandwich</span><span class="price">$5.00</span>
+						</li>
+						<li><span class="menu_item">Egg &amp; Bacon Sandwich</span><span class="price">$5.00</span></li>
+						<li><span class="menu_item">Two Eggs Over Easy</span><span class="price">$6.00</span></li>
+						<li><span class="menu_item">Western Omlette</span><span class="price">$7.00</span></li>
+						<li><span class="menu_item">Eggs Benedict</span><span class="price">$11.00</span></li>
+					</ul>
+				</div>
+				<div class="content menu lunch tabcontent" data-tab-content id="lunch">
+					<h3>Lunch</h3>
+					<ul>
+						<li><span class="menu_item">BLT with Fries</span><span class="price">$7.00</span></li>
+						<li><span class="menu_item">Turkey Bacon Clubhouse</span><span class="price">$9.00</span></li>
+						<li><span class="menu_item">Chicken Pesto Panini</span><span class="price">$7.00</span></li>
+						<li><span class="menu_item">Steak Sandwich</span><span class="price">$11.00</span></li>
+						<li><span class="menu_item">Vegi-Bowl</span><span class="price">$9.00</span></li>
+					</ul>
 				</div>
 			</div>
-		</footer>
-		<p class="slogan">&copy; 2021 Planet 6 Enterprises LLC</p>
+
+			</main>
+			<footer>
+				<div class="content address  ">
+					<h3>Address</h3>
+					<p>108 University Ave E<br>
+						Waterloo Ontario<br>
+						N2J 2W2</p>
+				</div>
+				<div class=" content Time">
+					<h3>Open Hours</h3>
+					<p>Monday - Thursday<br>
+						7:00 am - 4:00 pm</p>
+					<p>Friday<br>
+						7:00 am - 3:00 pm</p>
+				</div>
+				<div class="content social">
+					<h3>Social</h3>
+					<div id="social_container">
+						<a href="http://www.instagram.com"><img class="social" src="../Images/insta.png"
+								alt="Our Instagram feed"></a>
+						<a href="http://www.twitter.com"><img class="social" src="../Images/twitter.png"
+								alt="Our Tweets"></a>
+						<a href="http://www.facebook.com"><img class="social" src="../Images/facebook.png"
+								alt="Our Facebook Page"></a>
+					</div>
+				</div>
+			</footer>
+			<p class="slogan">&copy; 2021 Planet 6 Enterprises LLC</p>
+		</div>
 	</div>
+	</div>
+
+
 </body>
 
 </html>
