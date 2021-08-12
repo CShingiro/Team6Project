@@ -23,6 +23,101 @@ body {
 }
 
 header {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	position: fixed;
+	top: 0;
+}
+
+#logo {
+	max-width: 20%;
+	max-height: 4em;
+	margin-top: 0em;
+	display: inline-block;
+	margin-right: 0.5em;
+}
+
+h1 {
+	margin: 0em;
+	display: inline-block;
+	color: #F4F2DC;
+	font-size: 1.5em;
+	text-shadow: 2px 2px 8px #000000;
+	font-family: 'kenney_spaceregular';
+}
+
+#six {
+	font-family: 'supercomputerregular';
+	margin-right: 3pt;
+}
+
+.mainContent {
+	position: relative;
+	top: -250px;
+	margin: 0 5%;
+}
+
+.content {
+	background-color: #F4F2DC;
+	margin: 10px auto;
+	border-radius: 20px;
+	padding: 1rem;
+}
+
+.weeklySpecials {
+	padding: 30px;
+	display: flex;
+}
+
+.weeklyimg {
+	margin-top: 10px;
+	width: 400px;
+	border-radius: 20px;
+}
+
+iframe {
+    margin-top: 10%;
+    margin-right: 25%;
+    margin-left: 25%;
+}
+
+#menu_button {
+    margin-right: 45%;
+    margin-left: 45%;
+}
+
+.weeklyText {
+	display: flex;
+	align-items: center;
+	margin-left: 30px;
+	font-size: 1.3rem;
+}
+
+
+.welcome {
+	padding: 40px;
+	font-size: 1.3rem;
+}
+
+.slogan {
+	text-align: center;
+	font-size: 0.8em;
+	margin-top: 4pt;
+	margin-bottom: 0pt;
+}
+
+/* tabs */
+.tabcontent {
+	display: none;
+}
+
+
+
+
+/* footer */
+footer {
+	display: flex;
     top: 0;
     position: sticky;
     background-color:rgba(255,255,255,0.5);
