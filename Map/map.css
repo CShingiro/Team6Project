@@ -23,7 +23,6 @@ body {
 }
 
 header {
-<<<<<<< HEAD
 	display: flex;
 	justify-content: space-between;
 	width: 100%;
@@ -119,7 +118,6 @@ iframe {
 /* footer */
 footer {
 	display: flex;
-=======
     top: 0;
     position: sticky;
     background-color:rgba(255,255,255,0.5);
@@ -127,7 +125,6 @@ footer {
     margin-bottom: 20px;
     border-radius: 10px;
     
->>>>>>> e156f2ffdd56819591762c9db806b4219c84c8cc
 }
 
 
