@@ -1,65 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Where We Are</title>
-        <meta charset="utf-8">
-        <link href="map.css" rel="stylesheet" type="text/css">
-		<link rel="icon" href="../Images/mugicon.png"  type="image/png">
-    </head>
-    <body>
-		<div id="wrapper">
-			<div class="headerWrapper">
-				<header>
-					<div id="header_div">
-						<a href="../Home/index.html">
-							<img id="logo" src="../Images/logo.png" alt="coffee cup with planetary rings around it">
-							<h1>Planet <span id="six">6</span> Cafe</h1>
-						</a>
-						<p class="slogan">The best coffee and eats this side of the galaxy!</p>
-					</div>
-					<nav>
-						<button type="button"><a href="../Home/index.html">Home & Menu</a></button>
-						<button type="button" id="midBtn" class="highlight"><a href="../Map/map.html">Where to Find Us</a></button>
-						<button type="button"><a href="../About/about.html">About Us</a></button>
-					</nav>
-				</header>
-			</div>
-			
-		<div class="hero">
-			<!-- background image is in this div -->
-			<iframe width="850px" height="700px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=-80.52146494388582%2C43.47792645233313%2C-80.51477015018465%2C43.48148032235603&amp;layer=mapnik&amp;marker=43.479703413474155%2C-80.51811754703522" style="border: 1px solid black"></iframe><br/>
-            <button id="menu_button" type="button">
-                <small><a href="https://www.openstreetmap.org/?mlat=43.47970&amp;mlon=-80.51812#map=18/43.47970/-80.51812">View Larger Map</a></small>
-            </button>
+
+	<head>
+		<title>Where We Are</title>
+		<meta charset="utf-8">
+		<link href="map.css" rel="stylesheet" type="text/css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+		<link rel="stylesheet" href="../Home/index.css" type="text/css">
+		<link rel="preload" as="font" href="../Fonts/kenney_space-webfont.woff">
+		<link rel="icon" type="image/png" href="../Images/favicon/mugicon.png">
+	</head>
+
+	<body>
+		<div class="headerWrapper">
+			<header>
+				<div id="header_div">
+					<a href="../Home/index.html">
+						<img id="logo" src="../Images/logo.png" alt="coffee cup with planetary rings around it">
+						<h1>Planet <span class="six">6</span> Cafe</h1>
+					</a>
+					<p class="slogan">The best coffee and eats this side of the galaxy!</p>
+				</div>
+				<nav>
+					<button type="button"><a href="../Home/index.html">Home & Menu</a></button>
+					<button type="button" id="midBtn" class="highlight"><a href="../Map/map.html">Where to Find Us</a></button>
+					<button type="button"><a href="../About/about.html">About Us</a></button>
+				</nav>
+			</header>
 		</div>
-        <main>
-        </main> 
-        <footer>
-			<div class="content address footerdiv ">
-				<h3>Address</h3>
-				<p>108 University Ave E<br>
-					Waterloo Ontario<br>
-					N2J 2W2</p>
+		<main>
+			<div class="container">
+				<div class="iframe">
+					<iframe width="90%" height="500px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=-80.52146494388582%2C43.47792645233313%2C-80.51477015018465%2C43.48148032235603&amp;layer=mapnik&amp;marker=43.479703413474155%2C-80.51811754703522" style="border: 1px solid black"></iframe><br />
+					<button id="menu_button" type="button">
+						<small><a href="https://www.openstreetmap.org/?mlat=43.47970&amp;mlon=-80.51812#map=18/43.47970/-80.51812">View Larger Map</a></small>
+					</button>
+				</div>
 			</div>
-			<div class=" content Time footerdiv">
-				<h3>Open Hours</h3>
-				<p>Monday - Thursday<br>
-					7:00 am - 4:00 pm</p>
-				<p>Friday<br>
-					7:00 am - 3:00 pm</p>
-			</div>
-			<div class="content social footerdiv">
-				<h3>Social</h3>
-				<div id="social_container">
-					<a href="http://www.instagram.com"><img class="social" src="../Images/insta.png"
-							alt="Our Instagram feed"></a>
-					<a href="http://www.twitter.com"><img class="social" src="../Images/twitter.png"
-							alt="Our Tweets"></a>
-					<a href="http://www.facebook.com"><img class="social" src="../Images/facebook.png"
-							alt="Our Facebook Page"></a>
+		</main>
+		<footer>
+			<div class="container">
+				<div class="grid-container">
+					<div class="grid-item-footer">
+						<div class="footer_content">
+							<h3>Address</h3><br><br>
+							<p>108 University Ave E<br>
+								Waterloo Ontario<br>
+								N2J 2W2</p>
+						</div>
+					</div>
+					<div class="grid-item-footer">
+						<div class="footer_content">
+							<h3>Open Hours</h3> <br><br>
+							<p>Monday - Thursday<br>
+								7:00 am - 4:00 pm</p>
+							<p>Friday<br>
+								7:00 am - 3:00 pm</p>
+						</div>
+					</div>
+					<div class="grid-item-footer">
+						<div class="footer_content">
+							<h3>Social</h3> <br><br>
+							<div id="social_container">
+								<a href="http://www.instagram.com"><img class="social" src="../Images/Social Images//insta.png" alt="Our Instagram feed"> &nbsp; INSTAGRAM</a>
+								<a href="http://www.twitter.com"><img class="social" src="../Images/Social Images/twitter.png" alt="Our Tweets"> &nbsp; TWITTER</a>
+								<a href="http://www.facebook.com"><img class="social" src="../Images/Social Images/facebook.png" alt="Our Facebook Page">&nbsp; FACEBOOK</a>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 		</footer>
 		<p class="slogan">&copy; 2021 Planet 6 Enterprises LLC</p>
-    </body>
+	</body>
+
 </html>

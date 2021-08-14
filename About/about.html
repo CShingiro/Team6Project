@@ -1,15 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <title>About Us</title>
-    <meta charset="utf-8">
-    <link href="about.css" rel="stylesheet" type="text/css">
-    <link rel="icon" href="../Images/mugicon.png" type="image/png">
-</head>
+    <head>
+        <title>About Us</title>
+        <meta charset="utf-8">
+        <link href="about.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="../Home/index.css" type="text/css">
+        <link rel="preload" as="font" href="../Fonts/kenney_space-webfont.woff">
+        <link rel="icon" type="image/png" href="../Images/favicon/mugicon.png">
+    </head>
 
-<body>
-    <div id="wrapper">
+    <body>
         <div class="headerWrapper">
             <header>
                 <div id="header_div">
@@ -26,48 +30,57 @@
                 </nav>
             </header>
         </div>
-
-        <div class="hero">
-            <!-- background image is in this div -->
-            <img src="../Images/group-photo.jpg"
-                alt="Four students' portraits sitting on the rings of the planet Saturn.">
-        </div>
-
         <main>
-            <p>We are students of Conestoga College in Ontario, Canada. We come from all over the world to meet for
+            <div class="container">
+                <img src="../Images/About us Images/group-photo.jpg" width="65%">
+            </div>
+        </main>
+        <div class="content about-content">
+            <h3 id="about">About The Team</h3>
+            <div class="weeklyText">
+                We are students of Conestoga College in Ontario, Canada. We come from all over the world to meet for
                 education and for a good cup of coffee. Our group comes from the Bahamas, India, Rwanda and Canada.
                 We’ve sourced the finest daily-roasted coffee beans, the best local ingredients and serve them fresh to
                 you. We were so impressed with our food we thought they were out of this world. So enjoy the best café
-                Waterloo, this planet, or any other has to offer.</p>
-        </main>
+                Waterloo, this planet, or any other has to offer.
+            </div>
+        </div>
+
 
         <footer>
-            <div class="content address footerdiv ">
-                <h3>Address</h3>
-                <p>108 University Ave E<br>
-                    Waterloo Ontario<br>
-                    N2J 2W2</p>
-            </div>
-            <div class=" content Time footerdiv">
-                <h3>Open Hours</h3>
-                <p>Monday - Thursday<br>
-                    7:00 am - 4:00 pm</p>
-                <p>Friday<br>
-                    7:00 am - 3:00 pm</p>
-            </div>
-            <div class="content social footerdiv">
-                <h3>Social</h3>
-                <div id="social_container">
-                    <a href="http://www.instagram.com"><img class="social" src="../Images/insta.png"
-                            alt="Our Instagram feed"></a>
-                    <a href="http://www.twitter.com"><img class="social" src="../Images/twitter.png"
-                            alt="Our Tweets"></a>
-                    <a href="http://www.facebook.com"><img class="social" src="../Images/facebook.png"
-                            alt="Our Facebook Page"></a>
+            <div class="container">
+                <div class="grid-container">
+                    <div class="grid-item-footer">
+                        <div class="footer_content">
+                            <h3>Address</h3><br><br>
+                            <p>108 University Ave E<br>
+                                Waterloo Ontario<br>
+                                N2J 2W2</p>
+                        </div>
+                    </div>
+                    <div class="grid-item-footer">
+                        <div class="footer_content">
+                            <h3>Open Hours</h3> <br><br>
+                            <p>Monday - Thursday<br>
+                                7:00 am - 4:00 pm</p>
+                            <p>Friday<br>
+                                7:00 am - 3:00 pm</p>
+                        </div>
+                    </div>
+                    <div class="grid-item-footer">
+                        <div class="footer_content">
+                            <h3>Social</h3> <br><br>
+                            <div id="social_container">
+                                <a href="http://www.instagram.com"><img class="social" src="../Images/Social Images//insta.png" alt="Our Instagram feed"> &nbsp; INSTAGRAM</a>
+                                <a href="http://www.twitter.com"><img class="social" src="../Images/Social Images/twitter.png" alt="Our Tweets"> &nbsp; TWITTER</a>
+                                <a href="http://www.facebook.com"><img class="social" src="../Images/Social Images/facebook.png" alt="Our Facebook Page">&nbsp; FACEBOOK</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </footer>
         <p class="slogan">&copy; 2021 Planet 6 Enterprises LLC</p>
-</body>
+    </body>
 
 </html>

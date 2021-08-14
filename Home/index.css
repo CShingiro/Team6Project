@@ -13,13 +13,13 @@ html, body {
 
 @font-face {
 	font-family: 'kenney_spaceregular';
-	src: url(../Fonts/kenney_space-webfont.woff) format('woff');
+	src: url(../fonts/kenney_space-webfont.woff) format('woff');
 	text-decoration: none;
 }
 
 @font-face {
 	font-family: 'supercomputerregular';
-	src: url(../Fonts/supercomputer-webfont.woff) format('woff');
+	src: url(../fonts/supercomputer-webfont.woff) format('woff');
 	text-decoration: none;
 }
 
@@ -28,7 +28,7 @@ html, body {
 .hero {
 	height: 100vh;
 	width: 100vw;
-	background-image: url('../Images/splash.jpg');
+	background-image: url('../images/splash.jpg');
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -40,16 +40,15 @@ html, body {
 }
 
 header {
-	z-index: 3;
+	padding: 7px;
+	z-index: 1;
 	display: flex;
 	justify-content: space-between;
 	width: 100%;
 	position: fixed;
 	top: 0;
-	background-color: rgba(255, 255, 255, 0.3);
-	backdrop-filter: blur(10px);
-
-
+	background-color: #7474744d;
+	backdrop-filter: blur(20px);
 }
 
 nav {
@@ -57,6 +56,7 @@ nav {
 	justify-content: center;
 	align-items: center;
 }
+
 
 #midBtn {
 	margin: 0 10px;
@@ -77,7 +77,7 @@ nav {
 }
 
 .footerdiv {
-	padding: 100px;
+	padding: 60px;
 }
 
 #logo {
@@ -86,17 +86,6 @@ nav {
 	margin-top: 0em;
 	display: inline-block;
 	margin-right: 0.5em;
-}
-
-iframe {
-    margin-top: 10%;
-    margin-right: 25%;
-    margin-left: 25%;
-}
-
-#menu_button {
-    margin-right: 45%;
-    margin-left: 45%;
 }
 
 h1 {
@@ -114,9 +103,9 @@ h1 {
 }
 
 .mainContent {
-	position: relative;
-	top: -250px;
-	margin: 0 5%;
+	margin-top: -250px;
+	margin-right: 5%;
+	margin-left: 5%;
 }
 
 .content {
@@ -141,69 +130,32 @@ h1 {
 	display: flex;
 	align-items: center;
 	margin-left: 30px;
-	font-size: 1.3rem;
+	font-size: 2rem;
 }
 
 
 .welcome {
-	padding: 40px;
-	font-size: 1.3rem;
+	padding: 25px;
+	font-size: 2rem;
 }
 
 .slogan {
 	text-align: center;
-	font-size: 0.8em;
+	font-size: 1em;
 	margin-top: 4pt;
 	margin-bottom: 0pt;
+	color: #000000;
 }
 
-/* tabs */
-
-
-[data-tab-content] {
-	display: none;
-  }
-  
-  .active[data-tab-content] {
-	display: block;
-  }
-  
-  
-  .tabs {
-	display: flex;
-	justify-content: space-around;
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	border-bottom: 1px solid black;
-  }
-  
-  .tab {
-	cursor: pointer;
-	padding: 10px;
-  }
-  
-  .tab:hover {
-	background-color: #AAA;
-  }
-  
-  .tab-content {
-	margin-left: 20px;
-	margin-right: 20px;
-  }
-
-  .firstRow {
-	  display:flex;
-	  flex-direction: row;
-  }
-
- 
-
-
+figcaption{
+	text-align: center;
+	font-size: 1.25em;
+	font-weight: bold;
+}
 
 /* footer */
 footer {
-	display: flex;
+	margin-top: 2.75rem;
 }
 
 hr {
@@ -238,28 +190,104 @@ button {
 button a {
 	color: inherit;
 }
+button a:hover{
+	text-decoration: none;
+}
 
 button.highlight {
 	background-color: #061045;
 	color: #F4F2DC;
 }
-
-
+#welcome{
+	font-size: 2.5em;
+	padding: 20px 20px 0 25px;
+	margin-bottom: 0;
+}
+#menu_safe{
+	margin-bottom: 2em;
+}
 
 h2 {
 	text-shadow: 2px 2px 8px #000000;
 	text-decoration: none;
-	font-size: 2em;
-	color: #F4F2DC;
+	color: #BABFD6;
 	font-family: 'kenney_spaceregular';
 }
 
 h3 {
-	font-size: 1.5em;
+	font-size: 2.5em;
 	text-align: center;
-	text-shadow: 1px 2px 3px #000000;
+	text-shadow: 2px 2px 3px #000000;
 	text-decoration: none;
 	color: #BABFD6;
 	font-family: 'kenney_spaceregular';
 	margin: 0pt;
+}
+ul.nav.nav-pills{
+	margin-bottom: 1em;
+	font-size: 2rem;
+}
+.drinks_p{
+	font-size: 2rem;
+	margin: 0;
+}
+.nav-pills{
+	display: flex;
+	justify-content: space-between;
+}
+
+.active a{
+	background-color: #061425 !important
+}
+
+.menu-tabs {
+	color: #000000;
+}
+
+.grid-container {
+	display: grid;
+	grid-template-columns: auto auto auto;
+}
+
+img.menuimg {
+	width: 100%;
+}
+.grid-item{
+	padding: 2em;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.grid-item-footer{
+	padding: 2em;
+	display: flex;
+	justify-content: center;
+	background-color: #F4F2DC;
+	border-radius: 20px;
+}
+.grid-item-footer:not(:last-child){
+	margin-right: 1em;
+}
+
+#social_container a{
+	display: block;
+	color: #000000;
+}
+
+#social_container a:hover{
+	text-decoration: none;
+}
+
+.social{
+	width: 35%;
+	margin-bottom: 0.5em;
+	margin-top: 0;
+}
+
+.footer_content p{
+	font-size: 1.75rem;
+	text-align: center;
+}
+.note{
+	font-size: 1.75rem;
 }
