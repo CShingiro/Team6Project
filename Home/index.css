@@ -13,13 +13,13 @@ html, body {
 
 @font-face {
 	font-family: 'kenney_spaceregular';
-	src: url(../fonts/kenney_space-webfont.woff) format('woff');
+	src: url(../Fonts/kenney_space-webfont.woff) format('woff');
 	text-decoration: none;
 }
 
 @font-face {
 	font-family: 'supercomputerregular';
-	src: url(../fonts/supercomputer-webfont.woff) format('woff');
+	src: url(../Fonts/supercomputer-webfont.woff) format('woff');
 	text-decoration: none;
 }
 
@@ -28,7 +28,7 @@ html, body {
 .hero {
 	height: 100vh;
 	width: 100vw;
-	background-image: url('../images/splash.jpg');
+	background-image: url('../Images/splash.jpg');
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
