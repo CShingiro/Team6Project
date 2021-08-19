@@ -12,7 +12,7 @@ html, body {
 }
 
 .mapWrapper{
-    background-image: url("../Images/splash.jpg");
+    background-image: url("Images/splash.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed; 
@@ -22,7 +22,7 @@ html, body {
 }
 
 .aboutWrapper {
-	background-image: url("../Images/splash.jpg");
+	background-image: url("Images/splash.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
@@ -62,14 +62,14 @@ img {
 
 @font-face {
 	font-family: 'kenney_spaceregular';
-	src: url(../Fonts/kenney_space-webfont.woff) format('woff');
+	src: url(Fonts/kenney_space-webfont.woff) format('woff');
 	text-decoration: none;
 	font-size: medium;
 }
 
 @font-face {
 	font-family: 'supercomputerregular';
-	src: url(../Fonts/supercomputer-webfont.woff) format('woff');
+	src: url(Fonts/supercomputer-webfont.woff) format('woff');
 	text-decoration: none;
 	font-size: medium;
 }
@@ -79,7 +79,7 @@ img {
 .hero {
 	height: 100vh;
 	width: 100vw;
-	background-image: url('../Images/splash.jpg');
+	background-image: url('Images/splash.jpg');
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -355,7 +355,7 @@ img.menuimg {
 @media only screen and (min-width : 320px) and (max-width : 480px) {
 	/* Styles */	
 	.mapWrapper{
-		background-image: url("../Images/splash.jpg");
+		background-image: url("Images/splash.jpg");
 		background-repeat: no-repeat;
 		background-size: cover;
 		background-attachment: fixed; 
@@ -369,7 +369,7 @@ img.menuimg {
 	}
 	
 	.aboutWrapper {
-		background-image: url("../Images/splash.jpg");
+		background-image: url("Images/splash.jpg");
 		background-repeat: no-repeat;
 		background-size: cover;
 		background-attachment: fixed;
