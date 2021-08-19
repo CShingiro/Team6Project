@@ -1,234 +1,254 @@
 <!DOCTYPE html>
 <html lang="en">
 
-	<head>
-		<meta charset="UTF-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Planet 6 Cafe - Conestoga Waterloo</title>
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-		<link rel="stylesheet" href="Home/index.css" type="text/css">
-		<link rel="preload" as="font" href="Fonts/kenney_space-webfont.woff">
-		<link rel="icon" type="image/png" href="Images/favicon/mugicon.png">
-	</head>
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Planet 6 Cafe - Conestoga Waterloo</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="index.css" type="text/css">
+	<link rel="preload" as="font" href="../Fonts/kenney_space-webfont.woff">
+	<link rel="icon" type="image/png" href="../Images/favicon/mugicon.png">
+</head>
 
-	<body>
-		<div id="">
-			<div class="headerWrapper">
-				<header>
-					<div id="header_div">
-						<a href="index.html">
-							<img id="logo" src="Images/logo.png" alt="coffee cup with planetary rings around it">
-							<h1>Planet <span class="six">6</span> Cafe</h1>
-						</a>
-						<p class="slogan">The best coffee and eats this side of the galaxy!</p>
-					</div>
-					<nav>
-						<button type="button" class="highlight"><a href="index.html">Home & Menu</a></button>
-						<button type="button" id="midBtn"><a href="map.html">Where to Find Us</a></button>
-						<button type="button"><a href="about.html">About Us</a></button>
-					</nav>
-				</header>
-			</div>
-
-
-			<div class="hero">
-				<!-- background image is in this div -->
-			</div>
-
-			<div class="mainContent">
-				<main>
-
-					<div class="content weeklySpecials">
-						<div>
-							<h3>Weekly Specials</h3>
-							<img class="weeklyimg" src="Images/egg_and_bacon_meal.png" alt="combo breakfast of egg and bacon sandwich and juice">
-						</div>
-						<div class="weeklyText">
-							This week special is a combo of Orange juice and <br>
-							Bacon and Egger Breakfast Sandwich. <br>
-							You save - $ 1.50 <br>
-							Price - $5.50
-						</div>
-					</div>
-					<div class="content" id="menu_safe">
-						<h3 id="welcome" class="">Welcome to Planet <span class="six">6</span> Cafe</h3>
-						<p class="welcome">Our World Class and specially made Coffee are sure to invigorate you taste buds and wake you up
-							in
-							the morning with a large and bright Smile on your face.
-							All drinks are made with Natural and Imported ingredients from all around the world. Great
-							service
-							is provided by ambitious and motivated Students from Waterloo Campus of Conestoga College.</p>
-					</div>
-					<div class="container">
-						<ul class="nav nav-pills">
-							<li class="active"><a class="menu-tabs" data-toggle="pill" href="#home">Drinks</a></li>
-							<li><a class="menu-tabs" data-toggle="pill" href="#menu1">Breakfast</a></li>
-							<li><a class="menu-tabs" data-toggle="pill" href="#menu2">Lunch</a></li>
-						</ul>
-
-						<div class="tab-content">
-							<div id="home" class="tab-pane fade in active">
-								<p class="drinks_p">Enjoy our Exotic and Unique Drinks.</p>
-
-								<div class="grid-container">
-									<div class="grid-item">
-										<figure>
-											<img class="menuimg" src="Images/Coffee Images/Cappucino.jpg" alt="">
-											<figcaption>Cappuccino&nbsp;$3.00</figcaption>
-										</figure>
-									</div>
-									<div class="grid-item">
-										<figure>
-											<img class="menuimg" src="Images/Coffee Images/Coffee.jpg" alt="">
-											<figcaption>Coffee&nbsp;$2.00</figcaption>
-										</figure>
-									</div>
-									<div class="grid-item">
-										<figure>
-											<img class="menuimg" src="Images/Coffee Images/Espresso.jpg" alt="">
-											<figcaption>Espresso&nbsp;$2.75</figcaption>
-										</figure>
-									</div>
-									<div class="grid-item">
-										<figure>
-											<img class="menuimg" src="Images/Coffee Images/Latte.jpg" alt="">
-											<figcaption>Latte&nbsp;$3.00</figcaption>
-										</figure>
-									</div>
-									<div class="grid-item">
-										<figure>
-											<img class="menuimg" src="Images/Coffee Images/Orange Juice.jpg" alt="">
-											<figcaption>Juice&nbsp;$2.00</figcaption>
-										</figure>
-									</div>
-									<div class="grid-item">
-										<figure>
-											<img class="menuimg" src="Images/Coffee Images/Pop Soda.png" alt="">
-											<figcaption>Fountain Pop&nbsp;$1.75</figcaption>
-										</figure>
-									</div>
-								</div>
-								<p class="note">Milk, Cream and Sugar served at the table.</p>
-							</div>
-							<div id="menu1" class="tab-pane fade">
-								<p class="drinks_p">
-									Breakfast is the most important meal of the day! Here are some mouth-watering breakfast meals you can Enjoy!
-								</p>
-								<div class="grid-container">
-									<div class="grid-item">
-										<figure>
-											<img class="menuimg" src="Images/breakfast/egg-and-sausage.jpg" alt="">
-											<figcaption>Sausage and Egger Breakfast Sandwich&nbsp;$5.00</figcaption>
-										</figure>
-									</div>
-									<div class="grid-item">
-										<figure>
-											<img class="menuimg" src="Images/breakfast/egg-and-bacon.jpg" alt="">
-											<figcaption>Bacon and Egger Breakfast Sandwich&nbsp;$5.00</figcaption>
-										</figure>
-									</div>
-									<div class="grid-item">
-										<figure>
-											<img class="menuimg" src="Images/breakfast/eggs-over-easy.jpg" alt="">
-											<figcaption>2 Eggs over Easy&nbsp;$6.00</figcaption>
-										</figure>
-									</div>
-									<div class="grid-item">
-										<figure>
-											<img class="menuimg" src="Images/breakfast/western-omelette.jpg" alt="">
-											<figcaption>Western Omelet&nbsp;$7.00</figcaption>
-										</figure>
-									</div>
-									<div class="grid-item">
-										<figure>
-											<img class="menuimg" src="Images/breakfast/Eggs-Benedict.jpg" alt="">
-											<figcaption>Eggs Benedict&nbsp;$11.00</figcaption>
-										</figure>
-									</div>
-								</div>
-								<p class="note">Get a combo of a drink and home fries with any meal with just extra $3.00.</p>
-							</div>
-							<div id="menu2" class="tab-pane fade">
-								<p class="drinks_p">
-									The best part about work is your lunch break! Hot and freshly made lunch to fill your stomach.
-								</p>
-								<div class="grid-container">
-									<div class="grid-item">
-										<figure>
-											<img class="menuimg" src="Images/lunch/blt-with-fries.jpg" alt="">
-											<figcaption>BLT with Fries&nbsp;$7.00</figcaption>
-										</figure>
-									</div>
-									<div class="grid-item">
-										<figure>
-											<img class="menuimg" src="Images/lunch/turkey-bacon-clubhouse.jpg" alt="">
-											<figcaption>Turkey Bacon Clubhouse&nbsp;$9.00</figcaption>
-										</figure>
-									</div>
-									<div class="grid-item">
-										<figure>
-											<img class="menuimg" src="Images/lunch/chicken-pesto-panini.jpg" alt="">
-											<figcaption>Chicken Pesto Grilled Panini&nbsp;$7.00</figcaption>
-										</figure>
-									</div>
-									<div class="grid-item">
-										<figure>
-											<img class="menuimg" src="Images/lunch/steak-sandwich.jpg" alt="">
-											<figcaption>Steak Sandwich&nbsp;$11.00</figcaption>
-										</figure>
-									</div>
-									<div class="grid-item">
-										<figure>
-											<img class="menuimg" src="Images/lunch/veggie-bowl.jpg" alt="">
-											<figcaption>Vegi Bowl&nbsp;$9.00</figcaption>
-										</figure>
-									</div>
-								</div>
-								<p class="note">Lunch combos get french fries with any meal by adding just $3.00 extra.</p>
-							</div>
-						</div>
-					</div>
-					<footer>
-						<div class="container">
-							<div class="grid-container">
-								<div class="grid-item-footer">
-									<div class="footer_content">
-										<h3>Address</h3><br><br>
-										<p>108 University Ave E<br>
-											Waterloo Ontario<br>
-											N2J 2W2</p>
-									</div>
-								</div>
-								<div class="grid-item-footer">
-									<div class="footer_content">
-										<h3>Open Hours</h3> <br><br>
-										<p>Monday - Thursday<br>
-											7:00 am - 4:00 pm</p>
-										<p>Friday<br>
-											7:00 am - 3:00 pm</p>
-									</div>
-								</div>
-								<div class="grid-item-footer">
-									<div class="footer_content">
-										<h3>Social</h3> <br><br>
-										<div id="social_container">
-											<a href="http://www.instagram.com"><img class="social" src="Images/Social Images//insta.png" alt="Our Instagram feed"> &nbsp; INSTAGRAM</a>
-											<a href="http://www.twitter.com"><img class="social" src="Images/Social Images/twitter.png" alt="Our Tweets"> &nbsp; TWITTER</a>
-											<a href="http://www.facebook.com"><img class="social" src="Images/Social Images/facebook.png" alt="Our Facebook Page">&nbsp; FACEBOOK</a>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</footer>
-					<p class="slogan">&copy; 2021 Planet 6 Enterprises LLC</p>
-				</main>
-			</div>
+<body>
+	<div>
+		<div class="headerWrapper">
+			<header>
+				<div id="header_div">
+					<a href="index.html">
+						<img id="logo" src="./Images/logo.png" alt="coffee cup with planetary rings around it">
+						<h1>Planet <span class="six">6</span> Cafe</h1>
+					</a>
+					<p class="slogan">The best coffee and eats this side of the galaxy!</p>
+				</div>
+				<nav>
+					<!-- decktop hamburger menu -->
+					<button type="button"><a href="index.html">Home & Menu</a></button>
+					<button type="button" id="midBtn"><a href="map.html">Where to Find Us</a></button>
+					<button type="button" class="highlight"><a href="about.html">About Us</a></button>
+				</nav>
+				<!-- mobile hamburger menu -->
+				<div id="mySidenav" class="sidenav">
+					<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+					<a href="index.html">HOME & MENU</a>
+					<a href="map.html">Where to Find Us</a>
+					<a href="about.html">About Us</a>
+				</div>
+				<span class="closeMenu" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+			</header>
 		</div>
-	</body>
-	<script src="index.js"></script>
+
+
+		<div class="hero">
+			<!-- background image is in this div -->
+		</div>
+
+		<div class="mainContent">
+			<main>
+
+				<div class="content weeklySpecials">
+					<div>
+						<h3>Weekly Specials</h3>
+						<img class="weeklyimg" src="../Images/egg_and_bacon_meal.png"
+							alt="combo breakfast of egg and bacon sandwich and juice">
+					</div>
+					<div class="weeklyText">
+						This week special is a combo of Orange juice and <br>
+						Bacon and Egger Breakfast Sandwich. <br>
+						You save - $ 1.50 <br>
+						Price - $5.50
+					</div>
+				</div>
+				<div class="content" id="menu_safe">
+					<h3 id="welcome" class="">Welcome to Planet <span class="six">6</span> Cafe</h3>
+					<p class="welcome">Our World Class and specially made Coffee are sure to invigorate you taste buds
+						and wake you up
+						in
+						the morning with a large and bright Smile on your face.
+						All drinks are made with Natural and Imported ingredients from all around the world. Great
+						service
+						is provided by ambitious and motivated Students from Waterloo Campus of Conestoga College.</p>
+				</div>
+				<div class="container">
+					<ul class="nav nav-pills">
+						<li class="active"><a class="menu-tabs" data-toggle="pill" href="#home">Drinks</a></li>
+						<li><a class="menu-tabs" data-toggle="pill" href="#menu1">Breakfast</a></li>
+						<li><a class="menu-tabs" data-toggle="pill" href="#menu2">Lunch</a></li>
+					</ul>
+
+					<div class="tab-content">
+						<div id="home" class="tab-pane fade in active">
+							<p class="drinks_p">Enjoy our Exotic and Unique Drinks.</p>
+
+							<div class="grid-container">
+								<div class="grid-item">
+									<figure>
+										<img class="menuimg" src="../Images/Coffee Images/Cappucino.jpg" alt="">
+										<figcaption>Cappuccino&nbsp;$3.00</figcaption>
+									</figure>
+								</div>
+								<div class="grid-item">
+									<figure>
+										<img class="menuimg" src="../Images/Coffee Images/Coffee.jpg" alt="">
+										<figcaption>Coffee&nbsp;$2.00</figcaption>
+									</figure>
+								</div>
+								<div class="grid-item">
+									<figure>
+										<img class="menuimg" src="../Images/Coffee Images/Espresso.jpg" alt="">
+										<figcaption>Espresso&nbsp;$2.75</figcaption>
+									</figure>
+								</div>
+								<div class="grid-item">
+									<figure>
+										<img class="menuimg" src="../Images/Coffee Images/Latte.jpg" alt="">
+										<figcaption>Latte&nbsp;$3.00</figcaption>
+									</figure>
+								</div>
+								<div class="grid-item">
+									<figure>
+										<img class="menuimg" src="../Images/Coffee Images/Orange Juice.jpg" alt="">
+										<figcaption>Juice&nbsp;$2.00</figcaption>
+									</figure>
+								</div>
+								<div class="grid-item">
+									<figure>
+										<img class="menuimg" src="../Images/Coffee Images/Pop Soda.png" alt="">
+										<figcaption>Fountain Pop&nbsp;$1.75</figcaption>
+									</figure>
+								</div>
+							</div>
+							<p class="note">Milk, Cream and Sugar served at the table.</p>
+						</div>
+						<div id="menu1" class="tab-pane fade">
+							<p class="drinks_p">
+								Breakfast is the most important meal of the day! Here are some mouth-watering breakfast
+								meals you can Enjoy!
+							</p>
+							<div class="grid-container">
+								<div class="grid-item">
+									<figure>
+										<img class="menuimg" src="../Images/breakfast/egg-and-sausage.jpg" alt="">
+										<figcaption>Sausage and Egger Breakfast Sandwich&nbsp;$5.00</figcaption>
+									</figure>
+								</div>
+								<div class="grid-item">
+									<figure>
+										<img class="menuimg" src="../Images/breakfast/egg-and-bacon.jpg" alt="">
+										<figcaption>Bacon and Egger Breakfast Sandwich&nbsp;$5.00</figcaption>
+									</figure>
+								</div>
+								<div class="grid-item">
+									<figure>
+										<img class="menuimg" src="../Images/breakfast/eggs-over-easy.jpg" alt="">
+										<figcaption>2 Eggs over Easy&nbsp;$6.00</figcaption>
+									</figure>
+								</div>
+								<div class="grid-item">
+									<figure>
+										<img class="menuimg" src="../Images/breakfast/western-omelette.jpg" alt="">
+										<figcaption>Western Omelet&nbsp;$7.00</figcaption>
+									</figure>
+								</div>
+								<div class="grid-item">
+									<figure>
+										<img class="menuimg" src="../Images/breakfast/Eggs-Benedict.jpg" alt="">
+										<figcaption>Eggs Benedict&nbsp;$11.00</figcaption>
+									</figure>
+								</div>
+							</div>
+							<p class="note">Get a combo of a drink and home fries with any meal with just extra $3.00.
+							</p>
+						</div>
+						<div id="menu2" class="tab-pane fade">
+							<p class="drinks_p">
+								The best part about work is your lunch break! Hot and freshly made lunch to fill your
+								stomach.
+							</p>
+							<div class="grid-container">
+								<div class="grid-item">
+									<figure>
+										<img class="menuimg" src="../Images/lunch/blt-with-fries.jpg" alt="">
+										<figcaption>BLT with Fries&nbsp;$7.00</figcaption>
+									</figure>
+								</div>
+								<div class="grid-item">
+									<figure>
+										<img class="menuimg" src="../Images/lunch/turkey-bacon-clubhouse.jpg" alt="">
+										<figcaption>Turkey Bacon Clubhouse&nbsp;$9.00</figcaption>
+									</figure>
+								</div>
+								<div class="grid-item">
+									<figure>
+										<img class="menuimg" src="../Images/lunch/chicken-pesto-panini.jpg" alt="">
+										<figcaption>Chicken Pesto Grilled Panini&nbsp;$7.00</figcaption>
+									</figure>
+								</div>
+								<div class="grid-item">
+									<figure>
+										<img class="menuimg" src="../Images/lunch/steak-sandwich.jpg" alt="">
+										<figcaption>Steak Sandwich&nbsp;$11.00</figcaption>
+									</figure>
+								</div>
+								<div class="grid-item">
+									<figure>
+										<img class="menuimg" src="../Images/lunch/veggie-bowl.jpg" alt="">
+										<figcaption>Vegi Bowl&nbsp;$9.00</figcaption>
+									</figure>
+								</div>
+							</div>
+							<p class="note">Lunch combos get french fries with any meal by adding just $3.00 extra.</p>
+						</div>
+					</div>
+				</div>
+				<footer>
+					<div class="container">
+						<div class="grid-container">
+							<div class="grid-item-footer">
+								<div class="footer_content">
+									<h3>Address</h3><br><br>
+									<p>108 University Ave E<br>
+										Waterloo Ontario<br>
+										N2J 2W2</p>
+								</div>
+							</div>
+							<div class="grid-item-footer">
+								<div class="footer_content">
+									<h3>Open Hours</h3> <br><br>
+									<p>Monday - Thursday<br>
+										7:00 am - 4:00 pm</p>
+									<p>Friday<br>
+										7:00 am - 3:00 pm</p>
+								</div>
+							</div>
+							<div class="grid-item-footer">
+								<div class="footer_content">
+									<h3>Social</h3> <br><br>
+									<div id="social_container">
+										<a href="http://www.instagram.com"><img class="social"
+												src="../Images/Social Images//insta.png" alt="Our Instagram feed">
+											&nbsp; INSTAGRAM</a>
+										<a href="http://www.twitter.com"><img class="social"
+												src="../Images/Social Images/twitter.png" alt="Our Tweets"> &nbsp;
+											TWITTER</a>
+										<a href="http://www.facebook.com"><img class="social"
+												src="../Images/Social Images/facebook.png"
+												alt="Our Facebook Page">&nbsp; FACEBOOK</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</footer>
+				<p class="slogan">&copy; 2021 Planet 6 Enterprises LLC</p>
+			</main>
+		</div>
+	</div>
+</body>
+<script src="index.js"></script>
 
 </html>
