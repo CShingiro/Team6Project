@@ -65,7 +65,7 @@ img {
 	src: url(Fonts/kenney_space-webfont.woff) format('woff');
 	text-decoration: none;
 	font-size: medium;
-	text-rendering: optimizeLegibility;
+	text-rendering: geometricPrecision;
 }
 
 @font-face {
@@ -73,7 +73,7 @@ img {
 	src: url(Fonts/supercomputer-webfont.woff) format('woff');
 	text-decoration: none;
 	font-size: medium;
-	text-rendering: optimizeLegibility;
+	text-rendering: geometricPrecision;
 }
 
 
@@ -148,6 +148,7 @@ h1 {
 	font-size: 1.5em;
 	text-shadow: 2px 2px 8px #000000;
 	font-family: 'kenney_spaceregular';
+	text-rendering: optimizeLegibility;
 }
 
 .six {
